@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+
+/* Header */
+header, section, footer{
+    text-align: center;
+}
+header {
+    background-color: #4a3f35;
+    padding: 3% 10%;
+}
+
+h1, h2, button {
+    font-family: 'Orbitron', sans-serif;
+}
+
+h1 {
+    color: #FBE6D4;
+}
+
+.main {
+    display: block;
+}
+
+
+
+
+/* Main */
+
+
+
+ul {
+    list-style-type: none;
+}
+
+
+img {
+    width: 50%;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #fa7d09;
+    padding: 3% 10%;
+}
+
+img {
+    background-color: white;
+    color: white;
+}
+
+
+
+
+
+
+
+
+/* Footer Button Section */
+footer {
+    background-color: #FBE6D4;
+    padding: 3% 10%;
+}
+
+button {
+    font-size: 1.7rem;
+    border-radius: 10px;
+    background-color: #604d2d;
+    color: white;
+    transition-duration: .4s;
+    padding: 5px;
+
+}
+
+button:hover {
+    background-color: white;
+    color: #604d2d;
+    cursor: url(hand.cur), pointer;
+   
+}
